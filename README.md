@@ -35,5 +35,96 @@ The program is menu-driven and runs entirely in the console.
    ```bash
    javac com/sarvagna/dsa/*.java
 
-2. java com.sarvagna.dsa.Main
+2. **Run the code**
+   ```bash
+   java com.sarvagna.dsa.Main
 
+---
+
+## Sample Output
+ --- Student Score Manager ---
+1. Add Student
+2. View All Students
+3. Search Student by Name
+4. Find Top Scorer
+5. Sort Scores (Descending)
+6. Exit
+Enter choice: 1
+Enter student name: Alice
+Enter student score: 85
+
+--- Student Score Manager ---
+1. Add Student
+2. View All Students
+3. Search Student by Name
+4. Find Top Scorer
+5. Sort Scores (Descending)
+6. Exit
+Enter choice: 1
+Enter student name: Bob
+Enter student score: 92
+
+--- Student Score Manager ---
+1. Add Student
+2. View All Students
+3. Search Student by Name    
+4. Find Top Scorer
+5. Sort Scores (Descending)  
+6. Exit
+Enter choice: 1
+Enter student name: Charlie
+Enter student score: 78
+
+--- Student Score Manager ---
+1. Add Student
+2. View All Students
+3. Search Student by Name    
+4. Find Top Scorer
+5. Sort Scores (Descending)  
+6. Exit
+Enter choice: 2
+Name: Alice, Score: 85       
+Name: Bob, Score: 92
+Name: Charlie, Score: 78     
+
+--- Student Score Manager ---
+1. Add Student
+2. View All Students
+3. Search Student by Name
+4. Find Top Scorer
+5. Sort Scores (Descending)
+6. Exit
+Enter choice: 3
+Enter name to search: Bob
+Found: Name: Bob, Score: 92
+
+1. Add Student
+2. View All Students
+3. Search Student by Name
+4. Find Top Scorer
+5. Sort Scores (Descending)
+6. Exit
+Enter choice: 5
+Students sorted in descending order by score.
+
+--- Student Score Manager ---
+1. Add Student
+2. View All Students
+3. Search Student by Name
+4. Find Top Scorer
+5. Sort Scores (Descending)
+6. Exit
+Enter choice: 2
+Name: Bob, Score: 92
+Name: Alice, Score: 85
+Name: Charlie, Score: 78
+
+--- Student Score Manager ---
+1. Add Student
+2. View All Students
+3. Search Student by Name
+4. Find Top Scorer
+5. Sort Scores (Descending)
+6. Exit
+Enter choice: 6
+Exiting...
